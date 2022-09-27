@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:id="@+id/rl_bg"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="red"
+        android:backgroundTint="#F60D0D"
+        android:textSize="22sp"
+        android:layout_marginStart="12dp"
+
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/btn_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:layout_toEndOf="@+id/btn_red"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginStart="12dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/btn_red"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/btn_green"
+        android:backgroundTint="@color/purple_700"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/btn_green"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btn_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="white"
+        android:layout_marginStart="12dp"
+
+        android:backgroundTint="@color/white"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/btn_blue"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="black"
+        android:layout_marginStart="12dp"
+
+        android:backgroundTint="@color/black"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/btn_green"
+        android:gravity="center"/>
+
+</LinearLayout>
