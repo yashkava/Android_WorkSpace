@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/operators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDITION ( + )"/>
+        <RadioButton
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBSTRACTION ( - )"/>
+        <RadioButton
+            android:id="@+id/mul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICATION ( * )"/>
+        <RadioButton
+            android:id="@+id/div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVISION ( / )"/>
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER FIRST NUMBER"/>
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER SECOND NUMBER"/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SUBMIT"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="YOUR ANSWER IS :"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+</LinearLayout>
