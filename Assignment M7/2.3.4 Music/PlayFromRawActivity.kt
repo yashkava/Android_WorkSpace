@@ -15,7 +15,7 @@ class PlayFromRawActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_play_from_raw)
-        mediaPlayer=MediaPlayer.create(this,R.raw.miley_cyrus_flowers)
+        mediaPlayer=MediaPlayer.create(this,R.raw.jingle_bell)
         startbutton=findViewById(R.id.start_button_id)
         stopbutton=findViewById(R.id.stop_button_id)
 
