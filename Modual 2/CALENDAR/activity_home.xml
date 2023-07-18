@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/blac"
+    >
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="261dp"
+        android:layout_height="250dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/bbbbb"
+        />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="CLICK HERE FOR NORMAL CALENDAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="240dp"
+        android:layout_height="231dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/spinner" />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="CLICK HERE FOR SPINNER CELANDAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
